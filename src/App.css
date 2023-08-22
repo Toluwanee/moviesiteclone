@@ -1,0 +1,25 @@
+/** Reset Css */
+/* remove default margin and pairing */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background-color: #052e16;
+  --primary-text-color: #fafafa;
+  --card-bg-color: #0a0a0a;
+}
+
+body{
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+.main{
+  display: flex;
+  gap: 1rem ;
+  flex-wrap: wrap;
+}
